@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My Wish List</string>
+
+    <string name="quote">"</string>
+    <string name="created">created:</string>
+    //----------------------------------------------------------------------------------------------
+    <string name="dialog_title">Are you sure?</string>
+    <string name="dialog_message">Exterminate your Resolution?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    //----------------------------------------------------------------------------------------------
+
+    //----------------------------------------------------------------------------------------------
+    <string name="dTitle">No Text Found</string>
+    <string name="dMessage">Please input Title and Text in order to save your resolution</string>
+    <string name="cancel">OK</string>
+    //----------------------------------------------------------------------------------------------
+
+    //----------------------------------------------------------------------------------------------
+    <string name="resolutionAchieved">Resolution Achieved</string>
+    <string name="didYouFinish">Did you complete this goal?</string>
+    //----------------------------------------------------------------------------------------------
+
+    <string name="myNewYearsRes">My New Year\'s Resolutions</string>
+    <string name="enterTitle">Resolution\'s Title</string>
+    <string name="writeResolution">Write Your Resolution</string>
+    <string name="ican">I Can Do It</string>
+    <string name="killRes">Kill Resolution</string>
+    <string name="toResList">My Resolution\'s List</string>
+    <string name="resCompleted">Resolution Achieved</string>
+    <string name="noWishy">You have no resolutions for now.</string>
+    <string name="addPicture">Add Picture</string>
+    <string name="goback">&lt;</string>
+    <string name="plus">+</string>
+
+</resources>

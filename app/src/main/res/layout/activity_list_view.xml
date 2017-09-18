@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#1F1F1F"
+    tools:context="mywishlist.nexmii.com.mywishlist.ListViewActivity">
+
+    <TextView
+        android:id="@+id/noWishes"
+        android:text="@string/noWishy"
+        android:layout_marginTop="18dp"
+        android:textSize="23sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/list"
+        android:divider="#39ffffff"
+        android:dividerHeight="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/plus"
+        android:textSize="35sp"
+        android:textColor="#616161"
+        android:background="@drawable/add_btn_round_corner"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+</RelativeLayout>
